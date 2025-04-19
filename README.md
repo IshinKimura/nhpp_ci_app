@@ -4,4 +4,4 @@
 一般的な正規近似，Wilksの尤度比検定統計量，近似正規検定統計量，シミュレーションの
 4つの手法で信頼区間を構築・可視化できるStreamlitアプリです。
 
-アプリは[こちら](https://ishinkimura-nhpp-ci-app.streamlit.app)からご覧いただけます。
+アプリは[こちら](https://nhppciapp-nuhz4diekcjfubpbak3ues.streamlit.app/)からご覧いただけます。
