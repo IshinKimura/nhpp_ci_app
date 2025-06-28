@@ -6,6 +6,12 @@ from scipy.stats import norm, chi2, poisson
 import matplotlib.font_manager as fm
 import io
 
+# ──★ デバッグ用：利用可能フォントを確認 ─────────
+if st.sidebar.checkbox("フォント一覧を表示"):
+    font_names = sorted({f.name for f in fm.fontManager.ttflist})
+    st.sidebar.write(font_names)
+# ─────────────────────────────────────────
+
 # ──────────────────────────────
 # 日本語フォント設定（フォールバック方式）
 # ──────────────────────────────
