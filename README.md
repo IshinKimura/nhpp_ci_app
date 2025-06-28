@@ -5,3 +5,4 @@
 4つの手法で信頼区間を構築・可視化できるStreamlitアプリです。
 
 アプリは[こちら](https://nhppciapp-nuhz4diekcjfubpbak3ues.streamlit.app/)からご覧いただけます。
+最後のアクセスから12時間が経過するとアプリが自動的にスリープするため，ご注意ください．
