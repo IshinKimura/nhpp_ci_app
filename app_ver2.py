@@ -31,13 +31,7 @@ def _set_fallback_japanese_font() -> None:
         )
     plt.rcParams["axes.unicode_minus"] = False  # − が化けないように
 
-try:
-    # japanize-matplotlib が入っていれば自動設定される
-    import japanize_matplotlib  # noqa: F401
-    plt.rcParams["axes.unicode_minus"] = False
-except Exception:
-    # 無ければフォールバック
-    _set_fallback_japanese_font()
+_set_fallback_japanese_font()
 
 # ──────────────────────────────
 # アプリタイトル
