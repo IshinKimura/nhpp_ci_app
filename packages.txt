@@ -1,1 +1,1 @@
-fonts-ipaexfont
+fonts-noto-cjk
