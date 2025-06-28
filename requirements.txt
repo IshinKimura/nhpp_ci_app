@@ -1,4 +1,5 @@
 streamlit
 numpy
 matplotlib
+japanize-matplotlib
 scipy
