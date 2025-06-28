@@ -5,7 +5,8 @@ from scipy.optimize import minimize
 from scipy.stats import norm, chi2, poisson
 import io
 
-plt.rcParams['font.family'] = 'MS Gothic'  # 必要に応じて
+import japanize_matplotlib  # 日本語用フォント設定を自動で行う
+plt.rcParams['axes.unicode_minus'] = False  # − が文字化けしないように
 
 st.markdown(
     """
