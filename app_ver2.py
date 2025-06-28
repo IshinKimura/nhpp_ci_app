@@ -12,6 +12,7 @@ import io
 def _set_fallback_japanese_font() -> None:
     _JA_FONTS = [
         "IPAexGothic",        # Cloud で fonts-ipaexfont を入れると使える
+        "IPAexGothic-Regular",  # ← 追加
         "Noto Sans CJK JP",
         "Noto Sans JP",
         "Yu Gothic",
